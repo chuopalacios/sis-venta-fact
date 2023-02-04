@@ -56,7 +56,7 @@ if (!empty($_SESSION['active'])) {
                         <div class="col-lg-5">
                             <div class="card shadow-lg border-0 rounded-lg mt-5">
                                 <div class="card-header text-center">
-                                    <img class="img-thumbnail" src="assets/img/logo.png" width="100">
+                                    <img class="img-thumbnail" src="assets/img/logo_fci.png" width="100">
                                     <h3 class="font-weight-light my-4">Iniciar Sessión</h3>
                                 </div>
                                 <div class="card-body">
@@ -88,7 +88,7 @@ if (!empty($_SESSION['active'])) {
             <footer class="py-4 bg-light mt-auto">
                 <div class="container-fluid">
                     <div class="d-flex align-items-center justify-content-between small">
-                        <div class="text-muted">Copyright &copy; <a href="http://angelsifuentes.com/" target="_blank" rel="noopener noreferrer">Visite mi página web</a> <?php echo date("Y"); ?></div>
+                        <div class="text-muted">Copyright &copy; Proyecto de sistema de ventas facturación para Vinculación I y II - <?php echo date("Y"); ?></div>
                         <div>
                             <a href="#">Privacy Policy</a>
                             &middot;

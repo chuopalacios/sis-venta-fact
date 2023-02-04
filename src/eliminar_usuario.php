@@ -1,5 +1,4 @@
 <?php
-session_start();
 require("../conexion.php");
 $id_user = $_SESSION['idUser'];
 $permiso = "usuarios";

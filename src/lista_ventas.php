@@ -17,7 +17,8 @@ $query = mysqli_query($conexion, "SELECT v.*, c.idcliente, c.nombre FROM ventas 
             <th>Cliente</th>
             <th>Total</th>
             <th>Fecha</th>
-            <th></th>
+            <!--<th>Factura PDF</th>-->
+            <th>Factura PDF</th>
         </tr>
     </thead>
     <tbody>
