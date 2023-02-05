@@ -2,7 +2,7 @@
     $host = "127.0.0.1";
     $user = "root";
     $clave = "";
-    $bd = "sis-venta";
+    $bd = "sis_venta";
     $conexion = mysqli_connect($host,$user,$clave,$bd);
     if (mysqli_connect_errno()){
         echo "No se pudo conectar a la base de datos";
